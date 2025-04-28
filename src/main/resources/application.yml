@@ -1,3 +1,21 @@
 spring:
   application:
     name: class-booking-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/class-booking
+    username: class-booking-user
+    password: class-booking-password
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

@@ -1,4 +1,4 @@
-package com.diegodev.class_booking_api;
+package com.diegodev.classbookingapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
